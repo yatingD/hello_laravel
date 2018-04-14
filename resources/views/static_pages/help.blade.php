@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sample App</title>
-</head>
-<body>
-<h1>Aide</h1>
-</body>
-</html>
+@extends('layouts.default')
+@section('title','about')
+@section('content')
+    <h1>Aide</h1>
+@stop
