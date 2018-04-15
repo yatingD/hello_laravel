@@ -35,4 +35,8 @@ class UsersController extends Controller
         session()->flash('success', 'Bienvenue sur Laravel!');
         return redirect()->route('users.show', [$user]);
     }
+
+    public function edit(User $user){
+        return view('user.edit',compact('user'));
+    }
 }
